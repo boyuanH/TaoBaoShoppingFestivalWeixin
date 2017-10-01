@@ -3,7 +3,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1Yp74RVXXXXc_XFXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB1Yp74RVXXXXc_XFXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn2SG
@@ -11,7 +11,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1aj7VRVXXXXaKXVXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB1aj7VRVXXXXaKXVXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn3SG
@@ -19,7 +19,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB12UhnSXXXXXb.XXXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB12UhnSXXXXXb.XXXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn4SG
@@ -27,7 +27,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1D4c1RVXXXXXVXVXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB1D4c1RVXXXXXVXVXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn5SG
@@ -35,7 +35,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1kfQ0RVXXXXbCXFXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB1kfQ0RVXXXXbCXFXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn6SG
@@ -43,7 +43,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1POsTRVXXXXbYXVXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB1POsTRVXXXXbYXVXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn7SG
@@ -51,7 +51,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1Ghw.RVXXXXczXpXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB1Ghw.RVXXXXczXpXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn8SG
@@ -59,7 +59,7 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB13Mw9RVXXXXXwXFXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB13Mw9RVXXXXXwXFXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl blinn9SG
@@ -67,6 +67,6 @@ illum 4
 Kd 1.00 1.00 1.00
 Ka 1.00 1.00 1.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB18_A4RVXXXXcLXFXXXXXXXXXX-1024-1024.jpg
+map_Kd  ./img/TB18_A4RVXXXXcLXFXXXXXXXXXX-1024-1024.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50

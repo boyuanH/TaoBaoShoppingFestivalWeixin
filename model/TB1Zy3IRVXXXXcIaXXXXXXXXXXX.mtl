@@ -203,7 +203,7 @@ illum 4
 Kd 0.80 0.80 0.80
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd  https://gw.alicdn.com/mt/TB1B5w9RVXXXXXrXFXXXXXXXXXX-512-512.jpg
+map_Kd  ./img/TB1B5w9RVXXXXXrXFXXXXXXXXXX-512-512.jpg
 Ni 1.00
 newmtl v017_Exports___SHD1SG
 illum 4
