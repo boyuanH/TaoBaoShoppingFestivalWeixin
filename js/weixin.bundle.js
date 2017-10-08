@@ -1039,7 +1039,7 @@
 
 	function o() {
 		X = new d.Scene,
-			X.fog = new d.Fog(y, .8 * E, 1.5 * E),
+			X.fog = new d.Fog(y, .8 * E, 1.5 *E),
 			X.background = P
 	}
 
@@ -10779,6 +10779,7 @@
 			darkviolet: 9699539,
 			deeppink: 16716947,
 			deepskyblue: 49151,
+			
 			dimgray: 6908265,
 			dimgrey: 6908265,
 			dodgerblue: 2003199,
@@ -11242,7 +11243,7 @@
 				},
 				fog: {
 					fogDensity: {
-						value: 25e-5
+						value: 25e-5						
 					},
 					fogNear: {
 						value: 1
@@ -11250,7 +11251,7 @@
 					fogFar: {
 						value: 2e3
 					},
-					fogColor: {
+					fogColor: {						
 						value: new W(16777215)
 					}
 				},
@@ -22320,7 +22321,7 @@
 		CAMERA_Z: 5200,
 		CAR_WIDTH: 3e3,
 		CAR_HEIGHT: 1e4,
-		CAR_COUNT: 200,
+		CAR_COUNT: 0,
 		AVATAR_X: 0,
 		AVATAR_Y: 1e3,
 		AVATAR_Z: 4150,
@@ -22370,7 +22371,7 @@
 		c = n(13),
 		u = (r(c), {
 			buildingZ: -200,
-			buildingX: -1e3
+			buildingX: -200
 		}),
 		h = {
 			isAudioPlay: !0,
@@ -22402,7 +22403,8 @@
 				buildingJ: [8, 9, 10, 18, 22],
 				buildingNY3: [11]
 			},
-			buildings: [{
+			buildings: [
+			{
 				name: "buildingA",
 				rotation: {
 					x: 0,
@@ -22415,7 +22417,7 @@
 					z: .15
 				},
 				position: {
-					x: 3580 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -4313 + u.buildingZ
 				}
@@ -22423,7 +22425,7 @@
 				name: "buildingB",
 				rotation: {
 					x: 0,
-					y: Math.PI / 2,
+					y: 0,
 					z: 0
 				},
 				scale: {
@@ -22432,7 +22434,7 @@
 					z: .15
 				},
 				position: {
-					x: 3415 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -8423 + u.buildingZ
 				}
@@ -22449,7 +22451,7 @@
 					z: .15
 				},
 				position: {
-					x: 3580 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -1353 + u.buildingZ
 				}
@@ -22457,7 +22459,7 @@
 				name: "buildingC",
 				rotation: {
 					x: 0,
-					y: Math.PI / 2,
+					y: 0,
 					z: 0
 				},
 				scale: {
@@ -22466,7 +22468,7 @@
 					z: .15
 				},
 				position: {
-					x: 3580 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -9903 + u.buildingZ
 				}
@@ -22483,7 +22485,7 @@
 					z: .15
 				},
 				position: {
-					x: 3744 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: 456 + u.buildingZ
 				}
@@ -22500,7 +22502,7 @@
 					z: .15
 				},
 				position: {
-					x: 3251 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -2833 + u.buildingZ
 				}
@@ -22517,7 +22519,7 @@
 					z: .15
 				},
 				position: {
-					x: 3580 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: 2593 + u.buildingZ
 				}
@@ -22534,7 +22536,7 @@
 					z: .15
 				},
 				position: {
-					x: 3744 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -6121 + u.buildingZ
 				}
@@ -22551,7 +22553,7 @@
 					z: .15
 				},
 				position: {
-					x: 3415 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -12054 + u.buildingZ
 				}
@@ -22568,7 +22570,7 @@
 					z: .15
 				},
 				position: {
-					x: 2922 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -7437 + u.buildingZ
 				}
@@ -22585,7 +22587,7 @@
 					z: .15
 				},
 				position: {
-					x: 3415 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: -11054 + u.buildingZ
 				}
@@ -22602,7 +22604,7 @@
 					z: .15
 				},
 				position: {
-					x: 1771 + u.buildingX * Math.random(),
+					x: -500 + u.buildingX * Math.random(),
 					y: 0,
 					z: 1607 + u.buildingZ
 				}
@@ -22610,7 +22612,7 @@
 				name: "buildingH",
 				rotation: {
 					x: 0,
-					y: Math.PI / 2,
+					y: 0,
 					z: 0
 				},
 				scale: {
@@ -22619,7 +22621,7 @@
 					z: .15
 				},
 				position: {
-					x: -3490 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -10836 + u.buildingZ
 				}
@@ -22636,7 +22638,7 @@
 					z: .15
 				},
 				position: {
-					x: -3490 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -8725 + u.buildingZ
 				}
@@ -22653,7 +22655,7 @@
 					z: .15
 				},
 				position: {
-					x: -2997 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -7410 + u.buildingZ
 				}
@@ -22670,7 +22672,7 @@
 					z: .15
 				},
 				position: {
-					x: -3855 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -6752 + u.buildingZ
 				}
@@ -22687,7 +22689,7 @@
 					z: .15
 				},
 				position: {
-					x: -3855 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -5437 + u.buildingZ
 				}
@@ -22704,7 +22706,7 @@
 					z: .15
 				},
 				position: {
-					x: -3655 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -3957 + u.buildingZ
 				}
@@ -22721,7 +22723,7 @@
 					z: .15
 				},
 				position: {
-					x: -3326 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -3135 + u.buildingZ
 				}
@@ -22738,7 +22740,7 @@
 					z: .15
 				},
 				position: {
-					x: -3655 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -1819 + u.buildingZ
 				}
@@ -22755,7 +22757,7 @@
 					z: .15
 				},
 				position: {
-					x: -3655 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: -504 + u.buildingZ
 				}
@@ -22772,7 +22774,7 @@
 					z: .15
 				},
 				position: {
-					x: -3984 - u.buildingX * Math.random(),
+					x: -3000,
 					y: 0,
 					z: 812 + u.buildingZ
 				}
@@ -22789,7 +22791,7 @@
 					z: .15
 				},
 				position: {
-					x: -(1326 - u.buildingX * Math.random()),
+					x: -3000,
 					y: 0,
 					z: 2009 + u.buildingZ
 				}
@@ -22797,7 +22799,7 @@
 				name: "buildingF",
 				rotation: {
 					x: 0,
-					y: Math.PI,
+					y: 0,
 					z: 0
 				},
 				scale: {
@@ -22806,7 +22808,7 @@
 					z: .15
 				},
 				position: {
-					x: -(1415 - u.buildingX * Math.random()),
+					x: -3000,
 					y: 0,
 					z: 2949 + u.buildingZ
 				}
@@ -22825,7 +22827,7 @@
 					z: 4864
 				}
 			}, {
-				color: 14911744,
+				color: 14349553,
 				intensity: 3.1,
 				distance: 13680,
 				angle: 1.1,
@@ -22846,13 +22848,22 @@
 			billboard: {
 				glowColor: 16777215
 			},
-			billboards: [{
+			billboards: [
+			/*
+			{
 				type: "billboard1",
-				position: [-1946, 1871, 406],
-				rotation: [0, Math.PI / 2, 0],
+				position: [0, 0, 0],
+				rotation: [0, 0, 0],
 				shininess: .1,
-				scale: .7
-			}, {
+				scale: 1
+			}
+			billboards: [{
+            type: "billboard1",
+            position: [-1946, 1871, 406],
+            rotation: [0, Math.PI / 2, 0],
+            shininess: .1,
+            scale: .7
+        	}, {
 				type: "billboard2",
 				position: [-2175, -531, -1846],
 				rotation: [0, Math.PI / 2, 0],
@@ -22906,8 +22917,8 @@
 				rotation: [0, -Math.PI / 2, 0],
 				shininess: .1,
 				scale: 1
-			}],
-			lanterns: [{
+			}*/],
+			lanterns: [/*{
 				position: [0, -2e3 - 2e3 * Math.random(), 0],
 				rotation: [0, 0, 0]
 			}, {
@@ -22925,7 +22936,7 @@
 			}, {
 				position: [0, -2e3 - 2e3 * Math.random(), -15e3],
 				rotation: [0, -Math.PI / 5, 0]
-			}]
+			}*/]
 		};
 	h.isTaobao,
 		e.default = h
@@ -23478,7 +23489,7 @@
 	e.default = {
 		init: o,
 		urls: _,
-		resources: y
+		resources: y	
 	}
 }, function(t, e, n) {
 	"use strict";
@@ -24539,20 +24550,30 @@
 				"Billboards.obj": "./model/TB1vewwRVXXXXa.XXXXXXXXXXXX.obj",
 				"Fog.obj": "./model/TB1V57nRVXXXXXHXFXXXXXXXXXX.obj",
 				"Lanterns.obj": "./model/TB1TOATRVXXXXayXVXXXXXXXXXX.obj",
+				".BuildingAa.obj.swp": "不支持的文件格式，请调整后上传",
+				".BuildingAa-low.obj.swp": "不支持的文件格式，请调整后上传",				
 				".Lanterns.obj.swp": "不支持的文件格式，请调整后上传",
 				"Bridge.obj": "./model/TB1KjwxRVXXXXapXFXXXXXXXXXX.obj",
 				"Carp.obj": "./model/TB1ckgvRVXXXXaNXFXXXXXXXXXX.obj",
-				"CarpFinal.obj": "./model/TB1dIkCRVXXXXa_XFXXXXXXXXXX.obj",
-				"BuildingDa-low.obj": "./model/TB17NhQSXXXXXXHXpXXXXXXXXXX.obj",
-				"BuildingHa-low.obj": "./model/TB178xTSXXXXXcsXXXXXXXXXXXX.obj",
-				"BuildingF-low.obj": "./model/TB1nCpQSXXXXXbDXXXXXXXXXXXX.obj",
+				"CarpFinal.obj": "./model/TB1dIkCRVXXXXa_XFXXXXXXXXXX.obj",	
+				/*
 				"BuildingAa-low.obj": "./model/TB1iB8qSXXXXXXkXVXXXXXXXXXX.obj",
+				"BuildingBa-low.obj": "./model/TB1.ElCSXXXXXX6XFXXXXXXXXXX.obj",		
 				"BuildingCa-low.obj": "./model/TB1HbXXSXXXXXblaXXXXXXXXXXX.obj",
-				"BuildingJ-low.obj": "./model/TB1HW8jSXXXXXblXVXXXXXXXXXX.obj",
-				"BuildingBa-low.obj": "./model/TB1.ElCSXXXXXX6XFXXXXXXXXXX.obj",
-				".BuildingAa.obj.swp": "不支持的文件格式，请调整后上传",
-				".BuildingAa-low.obj.swp": "不支持的文件格式，请调整后上传",
+				"BuildingDa-low.obj": "./model/TB17NhQSXXXXXXHXpXXXXXXXXXX.obj",
+				"BuildingF-low.obj": "./model/TB1nCpQSXXXXXbDXXXXXXXXXXXX.obj",
+				"BuildingHa-low.obj": "./model/TB178xTSXXXXXcsXXXXXXXXXXXX.obj",
+				"BuildingJ-low.obj": "./model/TB1HW8jSXXXXXblXVXXXXXXXXXX.obj",				
 				"NY3-low.obj": "./model/TB1tmV2SXXXXXXmXXXXXXXXXXXX.obj"
+				*/
+				"BuildingAa-low.obj": "./model/tree3.obj",
+				"BuildingBa-low.obj": "./model/tree3.obj",		
+				"BuildingCa-low.obj": "./model/tree3.obj",
+				"BuildingDa-low.obj": "./model/tree3.obj",
+				"BuildingF-low.obj": "./model/tree3.obj",
+				"BuildingHa-low.obj": "./model/tree3.obj",
+				"BuildingJ-low.obj": "./model/tree3.obj",				
+				"NY3-low.obj": "./model/tree3.obj"
 			},
 			mtl: {
 				"BuildingJ.mtl": "./model/TB1hlRnSXXXXXbSXXXXXXXXXXXX.mtl",
@@ -24585,18 +24606,28 @@
 				"Carp.mtl": "./model/TB1SVXXSXXXXXcgXpXXXXXXXXXX.mtl",
 				"CarpFinal.mtl": "./model/TB1x9cSRVXXXXbdXpXXXXXXXXXX.mtl",
 				".CarpFinal.mtl.swp": "不支持的文件格式，请调整后上传",
-				"BuildingCa-low.mtl": "./model/TB1c_tqSXXXXXXMXVXXXXXXXXXX.mtl",
-				"BuildingAa-low.mtl": "./model/TB19mNXSXXXXXamaXXXXXXXXXXX.mtl",
-				"BuildingBa-low.mtl": "./model/TB1nppkSXXXXXaKXVXXXXXXXXXX.mtl",
-				"BuildingJ-low.mtl": "./model/TB1voXRSXXXXXbJXXXXXXXXXXXX.mtl",
-				"BuildingDa-low.mtl": "./model/TB17ONdSXXXXXcXXVXXXXXXXXXX.mtl",
-				"BuildingF-low.mtl": "./model/TB1DzBuSXXXXXbEXFXXXXXXXXXX.mtl",
-				"BuildingHa-low.mtl": "./model/TB17_dQSXXXXXcTXXXXXXXXXXXX.mtl",
 				".BuildingJ-low.mtl.swp": "不支持的文件格式，请调整后上传",
 				".BuildingAa-low.mtl.swp": "不支持的文件格式，请调整后上传",
 				".BuildingAa.mtl.swp": "不支持的文件格式，请调整后上传",
-				".NY3-low.mtl.swp": "不支持的文件格式，请调整后上传",
+				".NY3-low.mtl.swp": "不支持的文件格式，请调整后上传",	
+				/*
+				"BuildingAa-low.mtl": "./model/TB19mNXSXXXXXamaXXXXXXXXXXX.mtl",
+				"BuildingBa-low.mtl": "./model/TB1nppkSXXXXXaKXVXXXXXXXXXX.mtl",
+				"BuildingCa-low.mtl": "./model/TB1c_tqSXXXXXXMXVXXXXXXXXXX.mtl",				
+				"BuildingDa-low.mtl": "./model/TB17ONdSXXXXXcXXVXXXXXXXXXX.mtl",		
+				"BuildingF-low.mtl": "./model/TB1DzBuSXXXXXbEXFXXXXXXXXXX.mtl",
+				"BuildingHa-low.mtl": "./model/TB17_dQSXXXXXcTXXXXXXXXXXXX.mtl",
+				"BuildingJ-low.mtl": "./model/TB1voXRSXXXXXbJXXXXXXXXXXXX.mtl",
 				"NY3-low.mtl": "./model/TB1oHRVSXXXXXbgXXXXXXXXXXXX.mtl"
+				*/
+				"BuildingAa-low.mtl": "./model/tree3.mtl",
+				"BuildingBa-low.mtl": "./model/tree3.mtl",
+				"BuildingCa-low.mtl": "./model/tree3.mtl",				
+				"BuildingDa-low.mtl": "./model/tree3.mtl",		
+				"BuildingF-low.mtl": "./model/tree3.mtl",
+				"BuildingHa-low.mtl": "./model/tree3.mtl",
+				"BuildingJ-low.mtl": "./model/tree3.mtl",
+				"NY3-low.mtl": "./model/tree3.mtl"
 			},
 			textures: {
 				"z_fish.jpg": "./img/TB1hHr6RVXXXXb4apXXXXXXXXXX-512-512.jpg",
@@ -29354,7 +29385,7 @@
 	function o(t) {
 		v = new l.Group;
 		var e = p.default.resources.model.carp;
-		e.scale.x = e.scale.y = e.scale.z = .2,
+		e.scale.x = e.scale.y = e.scale.z = .0000002,
 			e.children[0].material.shading = l.SmoothShading;
 		var n = e.clone();
 		e.rotation.y = .2 * Math.PI,
