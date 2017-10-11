@@ -2,7 +2,7 @@
 
 newmtl color_swatch
 Kd 0.80000001192093 0.80000001192093 0.80000001192093
-map_Kd D:\C4D\10.6 test\tex\color_swatch.tga
+map_Kd ./color_swatch.jpg
 Ks 1 1 1
 Ns 43.219
 illum 7
