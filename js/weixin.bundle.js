@@ -22401,7 +22401,7 @@
 				buildingF: [5, 14, 23],
 				buildingH: [6, 7, 12, 21],
 				buildingJ: [8, 9, 10, 18, 22],
-				buildingNY3: [11]
+				buildingNY3: [11,24]
 			},
 			buildings: [
 			{
@@ -22811,6 +22811,24 @@
 					x: -3000,
 					y: 0,
 					z: 2949 + u.buildingZ
+				}
+			},
+			{
+				name: "buildingNY3",
+				rotation: {
+					x: 0,
+					y: 0,
+					z: 0
+				},
+				scale: {
+					x: .15,
+					y: .15,
+					z: .15
+				},
+				position: {
+					x: -3000,
+					y: 0,
+					z: 0
 				}
 			}],
 			lightHelper: !1,
@@ -24573,7 +24591,7 @@
 				"BuildingF-low.obj": "./model/tree3.obj",
 				"BuildingHa-low.obj": "./model/tree3.obj",
 				"BuildingJ-low.obj": "./model/tree3.obj",				
-				"NY3-low.obj": "./model/tree3.obj"
+				"NY3-low.obj": "./model/stone2.obj"
 			},
 			mtl: {
 				"BuildingJ.mtl": "./model/TB1hlRnSXXXXXbSXXXXXXXXXXXX.mtl",
@@ -24627,7 +24645,7 @@
 				"BuildingF-low.mtl": "./model/tree3.mtl",
 				"BuildingHa-low.mtl": "./model/tree3.mtl",
 				"BuildingJ-low.mtl": "./model/tree3.mtl",
-				"NY3-low.mtl": "./model/tree3.mtl"
+				"NY3-low.mtl": "./model/stone2.mtl"
 			},
 			textures: {
 				"z_fish.jpg": "./img/TB1hHr6RVXXXXb4apXXXXXXXXXX-512-512.jpg",
