@@ -22401,8 +22401,135 @@
 				buildingF: [5, 14, 23],
 				buildingH: [6, 7, 12, 21],
 				buildingJ: [8, 9, 10, 18, 22],
-				buildingNY3: [11,24]
+				buildingNY3: [11]
 			},
+			/*
+			 [
+{
+	name: "buildingA",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -4313 + u.buildingZ}
+}, {
+	name: "buildingB",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -8423 + u.buildingZ}
+}, {
+	name: "buildingC",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -1353 + u.buildingZ}
+}, {
+	name: "buildingC",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -9903 + u.buildingZ}
+}, {
+	name: "buildingD",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 456 + u.buildingZ}
+}, {
+	name: "buildingF",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -2833 + u.buildingZ}
+}, {
+	name: "buildingH",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 2593 + u.buildingZ}
+}, {
+	name: "buildingH",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -6121 + u.buildingZ}
+}, {
+	name: "buildingJ",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -12054 + u.buildingZ}
+}, {
+	name: "buildingJ",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -7437 + u.buildingZ}
+}, {
+	name: "buildingJ",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -11054 + u.buildingZ}
+}, {
+	name: "buildingNY3",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 1607 + u.buildingZ}
+}, {
+	name: "buildingH",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -10836 + u.buildingZ}
+}, {
+	name: "buildingA",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -8725 + u.buildingZ}
+}, {
+	name: "buildingF",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -7410 + u.buildingZ}
+}, {
+	name: "buildingB",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -6752 + u.buildingZ}
+}, {
+	name: "buildingD",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -5437 + u.buildingZ}
+}, {
+	name: "buildingB",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -3957 + u.buildingZ}
+}, {
+	name: "buildingJ",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -3135 + u.buildingZ}
+}, {
+	name: "buildingA",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -1819 + u.buildingZ}
+}, {
+	name: "buildingB",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -504 + u.buildingZ}
+}, {
+	name: "buildingH",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 812 + u.buildingZ}
+}, {
+	name: "buildingJ",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 2009 + u.buildingZ}
+}, {
+	name: "buildingF",
+	rotation: {x: 0,y: 0,z: 0},
+	scale: {x: .15,y: .15,z: .15},
+	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 2949 + u.buildingZ}
+},],
+			 
+			 
+			 * 
+			 * */
 			buildings: [
 			{
 				name: "buildingA",
@@ -22813,24 +22940,26 @@
 					z: 2949 + u.buildingZ
 				}
 			},
-			{
-				name: "buildingNY3",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: 0
-				}
-			}],
+//			},
+//			{
+//				name: "buildingNY3",
+//				rotation: {
+//					x: 0,
+//					y: 0,
+//					z: 0
+//				},
+//				scale: {
+//					x: .15,
+//					y: .15,
+//					z: .15
+//				},
+//				position: {
+//					x: -1200,
+//					y: 0,
+//					z: 0
+//				}
+//			}
+			],
 			lightHelper: !1,
 			lights: [{
 				color: 14349553,
@@ -24584,14 +24713,14 @@
 				"BuildingJ-low.obj": "./model/TB1HW8jSXXXXXblXVXXXXXXXXXX.obj",				
 				"NY3-low.obj": "./model/TB1tmV2SXXXXXXmXXXXXXXXXXXX.obj"
 				*/
-				"BuildingAa-low.obj": "./model/1_yd_tree1.obj",
-				"BuildingBa-low.obj": "./model/1_yd_tree1.obj",		
-				"BuildingCa-low.obj": "./model/1_yd_tree1.obj",
-				"BuildingDa-low.obj": "./model/1_yd_tree1.obj",
-				"BuildingF-low.obj": "./model/1_yd_tree1.obj",
-				"BuildingHa-low.obj": "./model/1_yd_tree1.obj",
-				"BuildingJ-low.obj": "./model/1_yd_tree1.obj",				
-				"NY3-low.obj": "./model/1_yd_tree1.obj"
+				"BuildingAa-low.obj": "./model/ayd_X01_stone1.obj",
+				"BuildingBa-low.obj": "./model/ayd_X01_stone1.obj",		
+				"BuildingCa-low.obj": "./model/ayd_X01_stone1.obj",
+				"BuildingDa-low.obj": "./model/ayd_X01_stone1.obj",
+				"BuildingF-low.obj": "./model/ayd_X01_stone1.obj",
+				"BuildingHa-low.obj": "./model/ayd_X01_stone1.obj",
+				"BuildingJ-low.obj": "./model/ayd_X01_stone1.obj",				
+				"NY3-low.obj": "./model/ayd_X20_tree4.obj"
 			},
 			mtl: {
 				"BuildingJ.mtl": "./model/TB1hlRnSXXXXXbSXXXXXXXXXXXX.mtl",
@@ -24638,14 +24767,14 @@
 				"BuildingJ-low.mtl": "./model/TB1voXRSXXXXXbJXXXXXXXXXXXX.mtl",
 				"NY3-low.mtl": "./model/TB1oHRVSXXXXXbgXXXXXXXXXXXX.mtl"
 				*/
-				"BuildingAa-low.mtl": "./model/1_yd_tree1.mtl",
-				"BuildingBa-low.mtl": "./model/1_yd_tree1.mtl",
-				"BuildingCa-low.mtl": "./model/1_yd_tree1.mtl",				
-				"BuildingDa-low.mtl": "./model/1_yd_tree1.mtl",		
-				"BuildingF-low.mtl": "./model/1_yd_tree1.mtl",
-				"BuildingHa-low.mtl": "./model/1_yd_tree1.mtl",
-				"BuildingJ-low.mtl": "./model/1_yd_tree1.mtl",
-				"NY3-low.mtl": "./model/1_yd_tree1.mtl"
+				"BuildingAa-low.mtl": "./model/ayd_X01_stone1.mtl",
+				"BuildingBa-low.mtl": "./model/ayd_X01_stone1.mtl",
+				"BuildingCa-low.mtl": "./model/ayd_X01_stone1.mtl",				
+				"BuildingDa-low.mtl": "./model/ayd_X01_stone1.mtl",		
+				"BuildingF-low.mtl": "./model/ayd_X01_stone1.mtl",
+				"BuildingHa-low.mtl": "./model/ayd_X01_stone1.mtl",
+				"BuildingJ-low.mtl": "./model/ayd_X01_stone1.mtl",
+				"NY3-low.mtl": "./model/ayd_X20_tree4.mtl"
 			},
 			textures: {
 				"z_fish.jpg": "./img/TB1hHr6RVXXXXb4apXXXXXXXXXX-512-512.jpg",
