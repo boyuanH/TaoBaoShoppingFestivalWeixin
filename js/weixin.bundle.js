@@ -22940,25 +22940,6 @@
 					z: 2949 + u.buildingZ
 				}
 			},
-//			},
-//			{
-//				name: "buildingNY3",
-//				rotation: {
-//					x: 0,
-//					y: 0,
-//					z: 0
-//				},
-//				scale: {
-//					x: .15,
-//					y: .15,
-//					z: .15
-//				},
-//				position: {
-//					x: -1200,
-//					y: 0,
-//					z: 0
-//				}
-//			}
 			],
 			lightHelper: !1,
 			lights: [{
