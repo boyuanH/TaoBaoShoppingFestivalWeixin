@@ -22403,544 +22403,129 @@
 				buildingJ: [8, 9, 10, 18, 22],
 				buildingNY3: [11]
 			},
-			/*
-			 [
-{
-	name: "buildingA",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -4313 + u.buildingZ}
-}, {
-	name: "buildingB",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -8423 + u.buildingZ}
-}, {
-	name: "buildingC",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -1353 + u.buildingZ}
-}, {
-	name: "buildingC",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -9903 + u.buildingZ}
-}, {
-	name: "buildingD",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 456 + u.buildingZ}
-}, {
-	name: "buildingF",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -2833 + u.buildingZ}
-}, {
-	name: "buildingH",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 2593 + u.buildingZ}
-}, {
-	name: "buildingH",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -6121 + u.buildingZ}
-}, {
-	name: "buildingJ",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -12054 + u.buildingZ}
-}, {
-	name: "buildingJ",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -7437 + u.buildingZ}
-}, {
-	name: "buildingJ",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -11054 + u.buildingZ}
-}, {
-	name: "buildingNY3",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 1607 + u.buildingZ}
-}, {
-	name: "buildingH",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -10836 + u.buildingZ}
-}, {
-	name: "buildingA",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -8725 + u.buildingZ}
-}, {
-	name: "buildingF",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -7410 + u.buildingZ}
-}, {
-	name: "buildingB",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -6752 + u.buildingZ}
-}, {
-	name: "buildingD",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -5437 + u.buildingZ}
-}, {
-	name: "buildingB",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -3957 + u.buildingZ}
-}, {
-	name: "buildingJ",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -3135 + u.buildingZ}
-}, {
-	name: "buildingA",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -1819 + u.buildingZ}
-}, {
-	name: "buildingB",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -504 + u.buildingZ}
-}, {
-	name: "buildingH",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 812 + u.buildingZ}
-}, {
-	name: "buildingJ",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 2009 + u.buildingZ}
-}, {
-	name: "buildingF",
-	rotation: {x: 0,y: 0,z: 0},
-	scale: {x: .15,y: .15,z: .15},
-	position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 2949 + u.buildingZ}
-},],
-			 
-			 
-			 * 
-			 * */
-			buildings: [
-			{
-				name: "buildingA",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
+			buildings: 
+				[{
+					name: "buildingA",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -4313 + u.buildingZ}
+				}, {
+					name: "buildingB",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -8423 + u.buildingZ}
+				}, {
+					name: "buildingC",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -1353 + u.buildingZ}
+				}, {
+					name: "buildingC",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -9903 + u.buildingZ}
+				}, {
+					name: "buildingD",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 456 + u.buildingZ}
+				}, {
+					name: "buildingF",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -2833 + u.buildingZ}
+				}, {
+					name: "buildingH",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 2593 + u.buildingZ}
+				}, {
+					name: "buildingH",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -6121 + u.buildingZ}
+				}, {
+					name: "buildingJ",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -12054 + u.buildingZ}
+				}, {
+					name: "buildingJ",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -7437 + u.buildingZ}
+				}, {
+					name: "buildingJ",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: -11054 + u.buildingZ}
+				}, {
+					name: "buildingNY3",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: 1200 + u.buildingX * Math.random(),y: 0,z: 1607 + u.buildingZ}
+				}, {
+					name: "buildingH",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -10836 + u.buildingZ}
+				}, {
+					name: "buildingA",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -8725 + u.buildingZ}
+				}, {
+					name: "buildingF",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -7410 + u.buildingZ}
+				}, {
+					name: "buildingB",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -6752 + u.buildingZ}
+				}, {
+					name: "buildingD",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -5437 + u.buildingZ}
+				}, {
+					name: "buildingB",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -3957 + u.buildingZ}
+				}, {
+					name: "buildingJ",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -3135 + u.buildingZ}
+				}, {
+					name: "buildingA",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -1819 + u.buildingZ}
+				}, {
+					name: "buildingB",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: -504 + u.buildingZ}
+				}, {
+					name: "buildingH",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 812 + u.buildingZ}
+				}, {
+					name: "buildingJ",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 2009 + u.buildingZ}
+				}, {
+					name: "buildingF",
+					rotation: {x: 0,y: 0,z: 0},
+					scale: {x: .15,y: .15,z: .15},
+					position: {x: -1200+ u.buildingX * Math.random(),y: 0,z: 2949 + u.buildingZ}
 				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -4313 + u.buildingZ
-				}
-			}, {
-				name: "buildingB",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -8423 + u.buildingZ
-				}
-			}, {
-				name: "buildingC",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -1353 + u.buildingZ
-				}
-			}, {
-				name: "buildingC",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -9903 + u.buildingZ
-				}
-			}, {
-				name: "buildingD",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: 456 + u.buildingZ
-				}
-			}, {
-				name: "buildingF",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -2833 + u.buildingZ
-				}
-			}, {
-				name: "buildingH",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: 2593 + u.buildingZ
-				}
-			}, {
-				name: "buildingH",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -6121 + u.buildingZ
-				}
-			}, {
-				name: "buildingJ",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -12054 + u.buildingZ
-				}
-			}, {
-				name: "buildingJ",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -7437 + u.buildingZ
-				}
-			}, {
-				name: "buildingJ",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: -11054 + u.buildingZ
-				}
-			}, {
-				name: "buildingNY3",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: 1200 + u.buildingX * Math.random(),
-					y: 0,
-					z: 1607 + u.buildingZ
-				}
-			}, {
-				name: "buildingH",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -10836 + u.buildingZ
-				}
-			}, {
-				name: "buildingA",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -8725 + u.buildingZ
-				}
-			}, {
-				name: "buildingF",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -7410 + u.buildingZ
-				}
-			}, {
-				name: "buildingB",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -6752 + u.buildingZ
-				}
-			}, {
-				name: "buildingD",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -5437 + u.buildingZ
-				}
-			}, {
-				name: "buildingB",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -3957 + u.buildingZ
-				}
-			}, {
-				name: "buildingJ",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -3135 + u.buildingZ
-				}
-			}, {
-				name: "buildingA",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -1819 + u.buildingZ
-				}
-			}, {
-				name: "buildingB",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: -504 + u.buildingZ
-				}
-			}, {
-				name: "buildingH",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: 812 + u.buildingZ
-				}
-			}, {
-				name: "buildingJ",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: 2009 + u.buildingZ
-				}
-			}, {
-				name: "buildingF",
-				rotation: {
-					x: 0,
-					y: 0,
-					z: 0
-				},
-				scale: {
-					x: .15,
-					y: .15,
-					z: .15
-				},
-				position: {
-					x: -1200,
-					y: 0,
-					z: 2949 + u.buildingZ
-				}
-			},
-			],
+				],
 			lightHelper: !1,
 			lights: [{
 				color: 14349553,
